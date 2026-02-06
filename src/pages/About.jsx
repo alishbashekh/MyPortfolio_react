@@ -71,8 +71,8 @@ const About = ({ dark }) => {
             Education
           </h2>
           <ul className={`space-y-2 ${cardText}`}>
-            <li>• Bachelor’s Degree in Computer Science</li>
-            <li>• Self-taught Web Development (Online Courses & Practice)</li>
+            <li>• Bachelor’s Degree in Information Technology</li>
+            <li>• Diploma in full stack Web Development from Aptech Institute</li>
           </ul>
         </section>
 
@@ -91,7 +91,7 @@ const About = ({ dark }) => {
           <p className={`leading-relaxed ${cardText}`}>
             I have worked on multiple personal and academic projects where I
             focused on building responsive UI components, managing state,
-            and improving user experience using React and Tailwind CSS.
+            and improving user experience using React and Tailwind CSS and backend logics.
           </p>
         </section>
 
