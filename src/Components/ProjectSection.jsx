@@ -1,5 +1,6 @@
 import React from "react";
 import pimage from '../assets/projectimg.png'
+import { Link } from "react-router-dom";
 
 
 const ProjectSection = ({ dark }) => {
@@ -35,13 +36,13 @@ const ProjectSection = ({ dark }) => {
               CSS
             </span>
           </div>
-          <a
-            href="/project"
+          
+            <Link to= "/project"
             className="text-sm font-semibold hover:underline"
             style={{ color: primaryColor }}
           >
             View Project
-          </a>
+          </Link>
         </div>
                  <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
           style={{ color: primaryColor}}>  
@@ -62,13 +63,13 @@ const ProjectSection = ({ dark }) => {
               CSS
             </span>
           </div>
-          <a
-            href="/project"
+          
+            <Link to= "/project"
             className="text-sm font-semibold hover:underline"
             style={{ color: primaryColor }}
           >
             View Project
-          </a>
+          </Link>
         </div>
          <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
           style={{ color: primaryColor}}>  
@@ -89,13 +90,12 @@ const ProjectSection = ({ dark }) => {
               CSS
             </span>
           </div>
-          <a
-            href="/project"
+          <Link to="/project"
             className="text-sm font-semibold hover:underline"
             style={{ color: primaryColor }}
           >
             View Project
-          </a>
+          </Link>
         </div>
       </div>
     </div>
