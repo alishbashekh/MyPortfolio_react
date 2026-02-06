@@ -12,30 +12,15 @@ const Contact = ({ dark }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  try {
-    const res = await fetch('http://localhost:3000/send-email', {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
+const handleSubmit = (e) => {
+    e.preventDefault();
 
-    const data = await res.json();
-
-    if (data.success) {
-      alert("Email sent successfully!");
-      setFormData({ name: "", email: "", message: "" });
-    } else {
-      alert("Email failed to send");
-    }
-  } catch (error) {
-    console.error(error);
-    alert("Server error");
-  }
-};
+    alert(`Message sent successfully!
+      \n\nName: ${formData.name}
+      \nEmail: ${formData.email}
+      \nMessage: ${formData.message}`);
+    setFormData({ name: "", email: "", message: "" });
+  };
 
   return (
     <div className={`min-h-screen px-6 py-16 ${dark ? "bg-[#020617] text-slate-200" : "bg-[#F8FAFC] text-slate-800"}`}>
