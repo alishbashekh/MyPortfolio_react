@@ -4,6 +4,7 @@ import nodemailer from "nodemailer"
 import dotenv from "dotenv"
 
 dotenv.config();
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors());
@@ -48,6 +49,6 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("server is responding");
 });
