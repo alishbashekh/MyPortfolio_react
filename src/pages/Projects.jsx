@@ -1,36 +1,38 @@
 import React from "react";
 
 const Project = ({ dark }) => {
-  const primaryColor = dark ? "#22C55E" : "#2563EB";    // headings
-  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";  // card backgrounds
+  const primaryColor = dark ? "#22C55E" : "#2563EB"; 
+  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";
   const cardText = dark ? "text-slate-400" : "text-slate-700";
 
-  // Sample projects
+
   const projectList = [
     {
-      title: "Portfolio Website",
+      title: "Tourism website",
       description:
-        "A responsive portfolio website built with React and Tailwind CSS to showcase projects, skills, and contact info.",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
-      live: "https://yourportfolio.com",
-      github: "https://github.com/username/portfolio",
+        "A responsive Tourism website built with html css and javascript to showcase projects, skills, and contact info.",
+      tech: ["Html","css", "JavaScript"],
+      live: "https://alishbashekh.github.io/TOURISM_WEBSITE/",
+      github: "https://github.com/alishbashekh",
     },
     {
-      title: "E-commerce Store",
+      title: "Tourism website",
       description:
-        "An online store with shopping cart, product filtering, and checkout functionality using React and Node.js.",
-      tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      live: "https://mystore.com",
-      github: "https://github.com/username/ecommerce-store",
+        "A responsive Tourism website built with html css and javascript to showcase projects, skills, and contact info.",
+      tech: ["Html","css", "JavaScript"],
+      live: "https://alishbashekh.github.io/TOURISM_WEBSITE/",
+      github: "https://github.com/alishbashekh",
     },
     {
-      title: "Blog Platform",
+      title: "Tourism website",
       description:
-        "A full-stack blog platform where users can create, edit, and comment on posts. Authentication implemented.",
-      tech: ["React", "Express", "MongoDB", "JWT"],
-      live: "https://myblog.com",
-      github: "https://github.com/username/blog-platform",
+        "A responsive Tourism website built with html css and javascript to showcase projects, skills, and contact info.",
+      tech: ["Html","css", "JavaScript"],
+      live: "https://alishbashekh.github.io/TOURISM_WEBSITE/",
+      github: "https://github.com/alishbashekh",
     }
+    
+   
   ];
 
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import pimage from '../assets/projectimg.png'
-import { PiIceCream } from "react-icons/pi";
+
 
 const ProjectSection = ({ dark }) => {
   const secondaryColor = dark ? "#E5E7EB" : "#1E293B";
@@ -23,16 +23,16 @@ const ProjectSection = ({ dark }) => {
             alt="Project 1"
             className="rounded-md mb-4"
           />
-          <h3 className="font-bold text-xl mb-2">Portfolio Website</h3>
+          <h3 className="font-bold text-xl mb-2">Tourism website</h3>
           <p className="text-sm mb-4">
-            A personal portfolio website built with React and Tailwind CSS.
+            A tourism website by using htm css and javascript
           </p>
           <div className="flex gap-2 justify-center mb-4">
             <span className="text-xs bg-blue-200 dark:bg-blue-800 px-2 py-1 rounded">
-              React
+              HTML
             </span>
             <span className="text-xs bg-green-200 dark:bg-green-800 px-2 py-1 rounded">
-              Tailwind
+              CSS
             </span>
           </div>
           <a
@@ -43,23 +43,23 @@ const ProjectSection = ({ dark }) => {
             View Project
           </a>
         </div>
-                <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
-                style={{ color: primaryColor}}>
+                 <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
+          style={{ color: primaryColor}}>  
           <img
             src={pimage}
             alt="Project 1"
             className="rounded-md mb-4"
           />
-          <h3 className="font-bold text-xl mb-2">Portfolio Website</h3>
+          <h3 className="font-bold text-xl mb-2">Tourism website</h3>
           <p className="text-sm mb-4">
-            A personal portfolio website built with React and Tailwind CSS.
+            A tourism website by using htm css and javascript
           </p>
           <div className="flex gap-2 justify-center mb-4">
             <span className="text-xs bg-blue-200 dark:bg-blue-800 px-2 py-1 rounded">
-              React
+              HTML
             </span>
             <span className="text-xs bg-green-200 dark:bg-green-800 px-2 py-1 rounded">
-              Tailwind
+              CSS
             </span>
           </div>
           <a
@@ -70,23 +70,23 @@ const ProjectSection = ({ dark }) => {
             View Project
           </a>
         </div>
-                <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
-                style={{ color: primaryColor}}>
+         <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
+          style={{ color: primaryColor}}>  
           <img
             src={pimage}
             alt="Project 1"
             className="rounded-md mb-4"
           />
-          <h3 className="font-bold text-xl mb-2">Portfolio Website</h3>
+          <h3 className="font-bold text-xl mb-2">Tourism website</h3>
           <p className="text-sm mb-4">
-            A personal portfolio website built with React and Tailwind CSS.
+            A tourism website by using htm css and javascript
           </p>
           <div className="flex gap-2 justify-center mb-4">
             <span className="text-xs bg-blue-200 dark:bg-blue-800 px-2 py-1 rounded">
-              React
+              HTML
             </span>
             <span className="text-xs bg-green-200 dark:bg-green-800 px-2 py-1 rounded">
-              Tailwind
+              CSS
             </span>
           </div>
           <a

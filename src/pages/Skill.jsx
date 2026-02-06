@@ -5,9 +5,8 @@ import { SiFigma, SiMongodb, SiMysql, SiPostman, SiTailwindcss, SiVsco, SiVscodi
 
 
 const Skills = ({ dark }) => {
-  const primaryColor = dark ? "#22C55E" : "#2563EB";      // headings
-  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";    // card bg
-  const iconBg = dark ? "bg-slate-800 text-green-400" : "bg-blue-100 text-blue-600";
+  const primaryColor = dark ? "#22C55E" : "#2563EB";      
+  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";  
 
   return (
     <div className={`min-h-screen px-6 py-16 transition-colors duration-300 ${dark ? "bg-[#020617] text-slate-200" : "bg-[#F8FAFC] text-slate-800"}`}>

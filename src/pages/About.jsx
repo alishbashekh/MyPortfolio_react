@@ -4,10 +4,11 @@ import { FaNodeJs } from 'react-icons/fa6'
 import { RiReactjsLine } from 'react-icons/ri'
 import { SiMongodb, SiMysql } from 'react-icons/si'
 
+
 const About = ({ dark }) => {
-  const primaryColor = dark ? "#22C55E" : "#2563EB";    // headings
-  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";  // card backgrounds
-  const cardText = dark ? "text-slate-400" : "text-slate-700"; // card text color
+  const primaryColor = dark ? "#22C55E" : "#2563EB"; 
+  const secondaryColor = dark ? "#1E293B" : "#E5E7EB";
+  const cardText = dark ? "text-slate-400" : "text-slate-700";
 
   return (
     <div
@@ -17,7 +18,7 @@ const About = ({ dark }) => {
     >
       <div className="max-w-5xl mx-auto grid gap-10">
         
-        {/* Bio Card */}
+        {/* Card */}
         <section
           data-aos="fade-up"
           className="p-6 md:p-8 rounded-2xl shadow-lg border text-center"
@@ -140,7 +141,6 @@ const About = ({ dark }) => {
           
                   </div>
         </section>
-
       </div>
     </div>
   );
