@@ -70,7 +70,7 @@ const handleSubmit = (e) => {
         {/*contact info*/}
         <section className={`p-8 rounded-2xl shadow-lg border flex flex-col items-center space-y-4`} style={{ backgroundColor: cardBg }}>
           <h3 className="text-2xl font-semibold" style={{ color: primaryColor }}>Contact Info</h3>
-          <p>Email: <a href="mailto:alishbashabbir890@example.com" className="underline">{`alishbashabbir890@example.com`}</a></p>
+          <p>Email: <a href="mailto:alishbashabbir890@gmail.com" className="underline">{`alishbashabbir890@gmail.com`}</a></p>
           <div className="flex gap-6 mt-2 text-3xl">
             <a href="https://github.com/alishbashekh" target="_blank" rel="noreferrer" className={`${dark ? "text-green-400" : "text-blue-600"} hover:scale-110 transition-transform`}><FaGithub /></a>
             <a href="https://www.linkedin.com/in/alishba-shabbir/" target="_blank" rel="noreferrer" className={`${dark ? "text-green-400" : "text-blue-600"} hover:scale-110 transition-transform`}><FaLinkedin /></a>
