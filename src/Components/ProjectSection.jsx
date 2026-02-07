@@ -8,7 +8,7 @@ const ProjectSection = ({ dark }) => {
   const primaryColor= dark ? "#22C55E" : "#2563EB";
 
   return (
-    <div className={`py-16 px-6 text-center ${dark ? "bg-[#1E293B]" : "bg-[#E5E7EB]"}`}>
+    <div className={`py-6 px-6 text-center ${dark ? "bg-[#1E293B]" : "bg-[#E5E7EB]"}`}>
       <h2
         className="text-3xl md:text-4xl font-bold mb-10"
         style={{ color: primaryColor }}

@@ -18,7 +18,7 @@ const Skills = ({ dark }) => {
   };
 
   return (
-    <div className={`min-h-screen py-24 transition-colors duration-300 ${dark ? "bg-[#1E293B] text-slate-200" : "bg-[#E5E7EB] text-slate-800"}`}>
+    <div className={`min-h-screen py-12 transition-colors duration-300 ${dark ? "bg-[#1E293B] text-slate-200" : "bg-[#E5E7EB] text-slate-800"}`}>
       <h2 className='my-20 text-center text-4xl text-[#2563EB] dark:text-[#22C55E]'>Skills Highlight</h2>
 
       <div className="flex flex-wrap items-center justify-center gap-8">
