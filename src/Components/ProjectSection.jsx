@@ -8,7 +8,7 @@ const ProjectSection = ({ dark }) => {
   const primaryColor= dark ? "#22C55E" : "#2563EB";
 
   return (
-    <div className={`py-6 px-6 text-center ${dark ? "bg-[#1E293B]" : "bg-[#E5E7EB]"}`}>
+    <div className={`py-24 px-8 text-center ${dark ? "bg-[#1E293B]" : "bg-[#E5E7EB]"}`}>
       <h2
         className="text-3xl md:text-4xl font-bold mb-10"
         style={{ color: primaryColor }}
@@ -17,8 +17,11 @@ const ProjectSection = ({ dark }) => {
       </h2>
 
       <div className="flex flex-wrap justify-center gap-6">
-        <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
-          style={{ color: primaryColor}}>  
+        {/* <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
+          style={{ color: primaryColor}}>   */}
+          <div className={`p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition
+          ${dark ? "bg-[#020617] text-slate-200" : "bg-[#F8FAFC] text-slate-800"}`}
+          > 
           <img
             src={pimage}
             alt="Project 1"
@@ -44,8 +47,9 @@ const ProjectSection = ({ dark }) => {
             View Project
           </Link>
         </div>
-                 <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
-          style={{ color: primaryColor}}>  
+                  <div className={`p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition
+          ${dark ? "bg-[#020617] text-slate-200" : "bg-[#F8FAFC] text-slate-800"}`}
+          > 
           <img
             src={pimage}
             alt="Project 1"
@@ -71,8 +75,9 @@ const ProjectSection = ({ dark }) => {
             View Project
           </Link>
         </div>
-         <div className="p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition"
-          style={{ color: primaryColor}}>  
+          <div className={`p-6 rounded-lg w-64 shadow-lg hover:scale-105 transition
+          ${dark ? "bg-[#020617] text-slate-200" : "bg-[#F8FAFC] text-slate-800"}`}
+          > 
           <img
             src={pimage}
             alt="Project 1"

@@ -13,6 +13,7 @@ const Hero = ({ dark }) => {
   const primaryColor = dark? "#22C55E" : "#2563EB";
 
 
+
   const textVariant = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
